@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: nginx:latest #hossambarakat/espresso-shop-product-catalog
+  repository: hossambarakat/espresso-shop-product-catalog
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest" #
